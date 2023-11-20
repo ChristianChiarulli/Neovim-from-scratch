@@ -91,7 +91,11 @@ require("lazy").setup({
   -- Hop
   {
     'phaazon/hop.nvim',
+    lazy = false,
     version = 'v2', -- optional but strongly recommended
+    config = function()
+      require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
+    end
   }, 
 
   -- Rust
