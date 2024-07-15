@@ -82,7 +82,7 @@ require("lazy").setup({
   },
 
 	-- Git
-	{ "lewis6991/gitsigns.nvim" },
+ 	{ "lewis6991/gitsigns.nvim" },
   { "f-person/git-blame.nvim" },
 
   -- REST / Postman
