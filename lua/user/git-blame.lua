@@ -4,5 +4,5 @@ git_blame.setup {
      --Note how the `gitblame_` prefix is omitted in `setup`
     enabled = true,
     date_format = '%r',
-    message_template = '<summary> • <committer> • <committer-date>',
+    message_template = '<committer>, <committer-date> • <summary>',
 }
